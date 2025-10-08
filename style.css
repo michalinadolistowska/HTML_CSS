@@ -1,0 +1,10 @@
+h1 {
+    color: rebeccapurple;
+    /*color: rgb(46, 21, 128);
+    color: rgba(55, 240, 56, 0.5);
+    color: #ff0000;
+    color: #f00;*/
+
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

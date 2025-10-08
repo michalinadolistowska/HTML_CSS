@@ -7,6 +7,7 @@
     <title>
         Formularz
     </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -15,6 +16,42 @@
 
     <h1>Jak wypełnić formularz?</h1>
     <p>lorem ipsum ...................</p>
+
+    <form action="" method="post">
+        <label for="formaimie">Imię</label>
+        <input id="formaimie" type="text" name="imie">
+
+        <label for="formanazwisko">Nazwisko</label>
+        <input id="formanazwisko" type="text" name="nazwisko">
+
+        <label for="formaklasa">Klasa</label>
+        <select id="formaklasa" title="klasa" name="klasa">
+            <option value="a">Klasa A</option>
+            <option value="b">Klasa B</option>
+            <option value="c">Klasa C</option>
+            <option value="d">Klasa D</option>
+        </select>
+
+        <label for="formakomentarze">Komentarze</label>
+        <textarea title="komentarze" name="komentarze">Dodaj swój komentarz</textarea>
+
+        <label for="formahaslo">Hasło</label>
+        <input id="formahaslo" type="password" name="haslo">
+
+        <label for="formakobieta">Kobieta</label>
+        <input id="formakobieta" type="radio" name="plec" value="kobieta">
+        <label for="formamezczyzna">Mężczyczna</label>
+        <input id="formamezczyzna" type="radio" name="plec" value="mezczyzna">
+
+
+        <label for="formabilet">darmowy bilet</label>
+        <input id="formabilet" type="checkbox" name="gratisy" value="bilet">
+        <label for="formakawa">darmowa kawa</label>
+        <input id="formakawa" type="checkbox" name="gratisy" value="kawa">
+        <label for="formahtodog">darmowy hot-dog</label>
+        <input id="formahtodog" type="checkbox" name="gratisy" value="hotdog">
+
+    </form>
 </body>
 
 </html>
