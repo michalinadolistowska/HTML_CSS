@@ -4,7 +4,17 @@ h1 {
     color: rgba(55, 240, 56, 0.5);
     color: #ff0000;
     color: #f00;*/
-
     font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    margin-bottom: 20px;
 }
