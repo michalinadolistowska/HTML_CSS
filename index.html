@@ -15,9 +15,22 @@
 </head>
 
 <body>
+    <nav>
+        <ul class="links">
+            <li id="glowne1"><a href="index2.html">Link 1</a></li>
+            <ul id="podmenu">
+                <li>Podmenu 1</li>
+                <li>Podmenu 2</li>
+            </ul>
+            <li><a href="index2.html">Link 2</a></li>
+            <li><a href="index2.html">Link 3</a></li>
+        </ul>
+    </nav>
+
     <h1>Formularz zapisów</h1>
     <p lang="pl">Aby zapisać się na X musisz wypełnić ten formularz:</p>
 
+    <img src="img/astro.jpg" alt="obrazek">
     <h1>Jak wypełnić formularz?</h1>
     <p>lorem ipsum ...................</p>
 
@@ -42,20 +55,69 @@
         <label for="formahaslo">Hasło</label>
         <input id="formahaslo" type="password" name="haslo">
 
-        <label for="formakobieta">Kobieta</label>
-        <input id="formakobieta" type="radio" name="plec" value="kobieta">
-        <label for="formamezczyzna">Mężczyczna</label>
-        <input id="formamezczyzna" type="radio" name="plec" value="mezczyzna">
+        <div>
+            <label for="formakobieta">Kobieta</label>
+            <input id="formakobieta" type="radio" name="plec" value="kobieta">
+            <label for="formamezczyzna">Mężczyczna</label>
+            <input id="formamezczyzna" type="radio" name="plec" value="mezczyzna">
+        </div>
 
+        <div>
+            <label for="formabilet">darmowy bilet</label>
+            <input id="formabilet" type="checkbox" name="gratisy" value="bilet">
+            <label for="formakawa">darmowa kawa</label>
+            <input id="formakawa" type="checkbox" name="gratisy" value="kawa">
+            <label for="formahtodog">darmowy hot-dog</label>
+            <input id="formahtodog" type="checkbox" name="gratisy" value="hotdog">
+        </div>
 
-        <label for="formabilet">darmowy bilet</label>
-        <input id="formabilet" type="checkbox" name="gratisy" value="bilet">
-        <label for="formakawa">darmowa kawa</label>
-        <input id="formakawa" type="checkbox" name="gratisy" value="kawa">
-        <label for="formahtodog">darmowy hot-dog</label>
-        <input id="formahtodog" type="checkbox" name="gratisy" value="hotdog">
+        <div>
+            <input type="submit" value="Wyślij">
+        </div>
 
     </form>
+
+    <table>
+        <caption>Tytuł</caption>
+        <tbody>
+            <tr>
+                <th>id</th>
+                <th>wiek</th>
+                <th>kwota</th>
+            </tr>
+            <tr>
+                <td rowspan="2">12</td>
+                <td colspan="2">32</td>
+            </tr>
+            <tr>
+                <td>67</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>27</td>
+                <td>36</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+        <ol>
+            <li>Element 1</li>
+            <li>Element 2</li>
+            <li>Element 3</li>
+        </ol>
+    </ul>
+
+    <ol>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+    </ol>
+
 </body>
 
 </html>
