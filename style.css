@@ -131,3 +131,22 @@ ul#podmenu {
 img {
     width: 100%;
 }
+
+div#contener {
+    display: flex;
+    width: 500px;
+}
+
+div#contener {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contener>div {
+    width: 150px;
+    background-color: red;
+    border: 1px solid yellow;
+
+}
